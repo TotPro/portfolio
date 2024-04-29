@@ -1,6 +1,10 @@
+import { Link } from "react-router-dom";
+
 export const About = () => {
   return (
     <>
+      <Link to="/">About</Link>
+      <Link to="/blog">Blog</Link>
       <Basic />
       <Hobby />
       <Career />
