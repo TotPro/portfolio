@@ -1,6 +1,12 @@
 {
   "articles": [
     {
+      "dirName": "test2",
+      "title": "test2",
+      "date": "yy-mm-dd",
+      "tags": ["test"]
+    },
+    {
       "dirName": "test",
       "title": "test",
       "date": "yy-mm-dd",
