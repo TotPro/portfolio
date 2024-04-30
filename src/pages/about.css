@@ -1,9 +1,13 @@
-.animelist {
-  margin-left: 20px;
-}
-
 .icon {
   height: 100px;
   display: block;
   margin: 0 auto;
+}
+
+.animelist {
+  margin-left: 20px;
+}
+
+.careerlist {
+  margin-left: 20px;
 }
