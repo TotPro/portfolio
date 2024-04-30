@@ -19,7 +19,7 @@ export const BlogTop = () => {
   // データをレンダリングする
   return (
     <>
-      <img className="header" src="/header.png" alt="header" />
+      <img className="header" src="/header_2.png" alt="header" />
       <nav>
         <Link to="/">About</Link>
         <Link to="/blog">Blog</Link>
