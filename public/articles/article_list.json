@@ -1,16 +1,10 @@
 {
   "articles": [
     {
-      "dirName": "test2",
-      "title": "test2",
-      "date": "yy-mm-dd",
-      "tags": ["test"]
-    },
-    {
-      "dirName": "test",
-      "title": "test",
-      "date": "yy-mm-dd",
-      "tags": ["test"]
+      "dirName": "post_1th",
+      "title": "自作ブログを作りました✌️",
+      "date": "2024-04-30",
+      "tags": ["etc"]
     }
   ]
 }

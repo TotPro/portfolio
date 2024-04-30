@@ -14,8 +14,10 @@ export const Article = () => {
   // データをレンダリングする
   return (
     <>
-      <Link to="/">About</Link>
-      <Link to="/blog">Blog</Link>
+      <nav>
+        <Link to="/">About</Link>
+        <Link to="/blog">Blog</Link>
+      </nav>
       <Markdown>{data}</Markdown>
     </>
   );

@@ -1,0 +1,14 @@
+.header {
+  width: 20%;
+  display: block;
+  margin: 0 auto;
+}
+
+.article {
+  color: #ff8c00;
+  font-size: 32px;
+}
+
+.article:hover {
+  color: #ffffff;
+}

@@ -1,11 +1,9 @@
-a {
-  margin-right: 10px;
-}
-
 .animelist {
   margin-left: 20px;
 }
 
-img {
+.icon {
   width: 10%;
+  display: block;
+  margin: 0 auto;
 }

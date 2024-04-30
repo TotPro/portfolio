@@ -4,9 +4,11 @@ import "./about.css";
 export const About = () => {
   return (
     <>
-      <img src="/icon.png" alt="icon" />
-      <Link to="/">About</Link>
-      <Link to="/blog">Blog</Link>
+      <img className="icon" src="/icon.png" alt="icon" />
+      <nav>
+        <Link to="/"> About</Link>
+        <Link to="/blog"> Blog</Link>
+      </nav>
       <Basic />
       <Hobby />
       <Career />

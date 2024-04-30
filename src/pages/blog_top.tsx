@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useFetch } from "../hooks/useFetch";
+import "./blog_top.css";
 
 type Article = {
   dirName: string;
@@ -18,16 +19,21 @@ export const BlogTop = () => {
   // データをレンダリングする
   return (
     <>
-      <Link to="/">About</Link>
-      <Link to="/blog">Blog</Link>
+      <img className="header" src="/header.png" alt="header" />
+      <nav>
+        <Link to="/">About</Link>
+        <Link to="/blog">Blog</Link>
+      </nav>
 
       <ul>
         {data.articles.map((article, i) => {
           return (
             <li>
-              <Link to={article.dirName} key={i}>
+              <Link to={article.dirName} key={i} className="article">
                 {article.title}
               </Link>
+              <br />
+              {article.date}
             </li>
           );
         })}
