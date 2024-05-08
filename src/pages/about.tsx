@@ -13,6 +13,8 @@ export const About = () => {
       <Hobby />
       <Career />
       <Skill />
+      <br />
+      <Mylink />
     </>
   );
 };
@@ -67,6 +69,25 @@ const Skill = () => {
     <>
       <h2>スキル</h2>
       <h3>Coming soon...</h3>
+    </>
+  );
+};
+
+const Mylink = () => {
+  return (
+    <>
+      <div className="mylink">
+        <a href="https://twitter.com/tot_pro_" target="_blank">
+          <img className="twitter-icon" src="/twitter.png" alt="twitter-icon" />
+        </a>
+        <a href="https://github.com/TotPro" target="_blank">
+          <img
+            className="github-icon"
+            src="/github-mark/github-mark-white.svg"
+            alt="github-icon"
+          />
+        </a>
+      </div>
     </>
   );
 };

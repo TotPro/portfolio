@@ -11,3 +11,17 @@
 .careerlist {
   margin-left: 20px;
 }
+
+.mylink {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.twitter-icon {
+  height: 80px;
+}
+
+.github-icon {
+  height: 80px;
+}
