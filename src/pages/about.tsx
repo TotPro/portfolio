@@ -6,8 +6,12 @@ export const About = () => {
     <>
       <img className="icon" src="/icon.png" alt="icon" />
       <nav>
-        <Link to="/"> About</Link>
-        <Link to="/blog"> Blog</Link>
+        <Link className="items" to="/">
+          About
+        </Link>
+        <Link className="items" to="/blog">
+          Blog
+        </Link>
       </nav>
       <Basic />
       <Hobby />

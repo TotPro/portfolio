@@ -21,8 +21,12 @@ export const BlogTop = () => {
     <>
       <img className="header" src="/header_2.png" alt="header" />
       <nav>
-        <Link to="/">About</Link>
-        <Link to="/blog">Blog</Link>
+        <Link className="items" to="/">
+          About
+        </Link>
+        <Link className="items" to="/blog">
+          Blog
+        </Link>
       </nav>
 
       <ul>

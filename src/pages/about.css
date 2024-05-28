@@ -4,6 +4,17 @@
   margin: 0 auto;
 }
 
+.items {
+  font-weight: 500;
+  font-size: 24px;
+  color: #e0ffff;
+  text-decoration: inherit;
+}
+
+.items:hover {
+  color: #87ceeb;
+}
+
 .animelist {
   margin-left: 20px;
 }

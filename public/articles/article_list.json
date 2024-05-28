@@ -5,6 +5,12 @@
       "title": "自作ブログを作りました✌️",
       "date": "2024-04-30",
       "tags": ["etc"]
+    },
+    {
+      "dirName": "post_2th",
+      "title": "angstromCTF 2024 に参加しました",
+      "date": "2024-05-28",
+      "tags": ["ctf"]
     }
   ]
 }

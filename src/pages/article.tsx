@@ -1,6 +1,10 @@
 import { Link, useParams } from "react-router-dom";
 import { useFetchRawTxt } from "../hooks/useFetch";
-import Markdown from "react-markdown";
+import ReactMarkdown from "react-markdown";
+import remarkMath from "remark-math";
+import remarkGfm from "remark-gfm";
+import rehypeKatex from "rehype-katex";
+import "katex/dist/katex.min.css";
 
 export const Article = () => {
   const { articleId } = useParams();
@@ -15,10 +19,19 @@ export const Article = () => {
   return (
     <>
       <nav>
-        <Link to="/">About</Link>
-        <Link to="/blog">Blog</Link>
+        <Link className="items" to="/">
+          About
+        </Link>
+        <Link className="items" to="/blog">
+          Blog
+        </Link>
       </nav>
-      <Markdown>{data}</Markdown>
+      <ReactMarkdown
+        remarkPlugins={[remarkGfm, remarkMath]}
+        rehypePlugins={[rehypeKatex]}
+      >
+        {data}
+      </ReactMarkdown>
     </>
   );
 };
