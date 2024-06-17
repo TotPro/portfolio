@@ -16,7 +16,7 @@ Web問題に関してはたまたま一緒に作業していたwebフロント�
 google lensじゃ絶対引っかからないような写真なので, 画像検索は望み薄.  
 次にangstromチームのSNSを覗きに行ったけど該当するものなし.  
 そういえばと思って, exiftoolにかけてみたらGPS Positionという欄があって, 緯度と経度があったので無事に場所の特定ができた.
-```bash:exiftool trip.jpeg
+```
 GPS Position                    : 37 deg 56' 23.60" N, 75 deg 26' 17.11" W
 ```
 あとはgoogle mapで検索して出てきた道の名前を答える.
@@ -29,7 +29,7 @@ GPS Position                    : 37 deg 56' 23.60" N, 75 deg 26' 17.11" W
 ### Consideration
 exiftoolで何も出なかったので, [aperi solve](https://www.aperisolve.com/)に投げてみた.  
 enc.txtていうテキストファイルが抽出できたので中身を見てみる.
-```txt:enc.txt
+```
 5RRjnsi3Hb3yT3jWgFRcPWUg5gYXe81WPeX3vmX
 ```
 ここから地獄で何でdecode（decrypt）すれば良いか検討がつかず時間を溶かす.  

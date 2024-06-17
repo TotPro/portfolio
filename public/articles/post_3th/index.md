@@ -14,7 +14,7 @@ RSA暗号そのままの問題です. $n = p * q$の$n$と暗号文$c$と$e$の�
 素数$p, q$は$p$を素数として$q = 2 * p + 1$としたときに$q$が素数になるような選び方をしています. この時の$p$をソフィー・ジェルマン素数, $q$を安全素数と言うらしいです.  
 $n$から$p$をうまいこと取り出せないか悩んで時間をだいぶ溶かしてしまいました.  
 $2^{511} \le p < 2^{512}$なので$p$を全探索しても全然いけることに気づいたので$p$を総当たりして, $q$を求めて復号してflag取得.
-```
+```python
 e = 0x10001
 n = 2929273...
 c = 4079147...
@@ -56,7 +56,7 @@ print(flag)
 ![rank](/articles/post_3th/assets/re-seccon4b-misc-getrank_2.png)
 のような流れで, ランクが1になればflagが取得できる.  
 以下がランクをつける処理  
-```TypsScript
+```TypeScript
 function ranking(score: number): Res {
   const getRank = (score: number) => {
     const rank = RANKING.findIndex((r) => score > r);
