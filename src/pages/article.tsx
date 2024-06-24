@@ -45,7 +45,7 @@ export const Article: React.FC = () => {
                 customStyle={{
                   margin: "16px 0px",
                   borderRadius: "4px",
-                  fontSize: "12px",
+                  fontSize: "14px",
                   wordSpacing: "4px",
                   fontFamily: "monospace",
                 }}

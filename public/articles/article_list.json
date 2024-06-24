@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "dirName": "post_4th",
+      "title": "WaniCTF 2024 に参加しました",
+      "date": "2024-06-24",
+      "tags": [
+        "ctf"
+      ]
+    },
+    {
       "dirName": "post_3th",
       "title": "SECCON Beginners CTF 2024 に参加しました",
       "date": "2024-06-17",
