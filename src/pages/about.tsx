@@ -47,6 +47,8 @@ const Hobby = () => {
         <div className="animelist">
           <li>ツルネ</li>
           <li>平穏世代の韋駄天達</li>
+          <li>3月のライオン</li>
+          <li>氷菓</li>
           <li>その他、その時の覇権アニメとか昔のアニメとか</li>
         </div>
       </p>
