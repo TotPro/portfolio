@@ -93,6 +93,7 @@ const Mylink = () => {
             alt="github-icon"
           />
         </a>
+        <a href="https://speakerdeck.com/totpro" target="_blank"></a>
       </div>
     </>
   );

@@ -82,7 +82,7 @@ def solve():
                 continue
 
 
-solve():solve.py
+solve()
 ```
 
 ## replacement(Crypto 431solves)
