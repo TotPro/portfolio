@@ -113,7 +113,7 @@ import re
 import time
 
 
-HOST = "104.199.135.28"
+HOST = "host"
 PORT = 55555
 r = remote(HOST, PORT)
 time.sleep(5)
@@ -251,7 +251,7 @@ MT19937はN=624なので624(=16*39)個の乱数を使って`secret`の復元を�
 ```python:solve.py
 import random
 from pwn import *
-HOST = "35.201.137.32"
+HOST = "host"
 PORT = 19937
 r = remote(HOST, PORT)
 
