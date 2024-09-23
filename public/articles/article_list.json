@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "dirName": "post_6th",
+      "title": "IERAE CTF 2024 に参加しました",
+      "date": "2024-09-23",
+      "tags": [
+        "ctf"
+      ]
+    },
+    {
       "dirName": "post_5th",
       "title": "AlpacaHack Round3 に参加しました",
       "date": "2024-09-16",
