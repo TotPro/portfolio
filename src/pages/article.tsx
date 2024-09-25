@@ -4,6 +4,7 @@ import ReactMarkdown from "react-markdown";
 import remarkMath from "remark-math";
 import remarkGfm from "remark-gfm";
 import rehypeKatex from "rehype-katex";
+import rehypeRaw from 'rehype-raw'
 import "katex/dist/katex.min.css";
 import SyntaxHighlighter from "react-syntax-highlighter/dist/esm/default-highlight"
 import { atomOneDark } from "react-syntax-highlighter/dist/esm/styles/hljs"
@@ -31,7 +32,7 @@ export const Article: React.FC = () => {
       </nav>
       <ReactMarkdown
         remarkPlugins={[remarkGfm, remarkMath]}
-        rehypePlugins={[rehypeKatex]}
+        rehypePlugins={[rehypeKatex, rehypeRaw]}
         components={{
           // code: Code
           code(props) {
