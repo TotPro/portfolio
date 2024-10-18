@@ -34,6 +34,7 @@ const Basic = () => {
         <br />
         所属サークル : Zli
       </p>
+      <p>暗号の研究がしたい数学苦手大学生です. たまにCTFに出ています. Writeupという名の参加記を<Link className="item" to="/blog">Blog</Link>に載せています.</p>
     </>
   );
 };
@@ -74,7 +75,20 @@ const Skill = () => {
   return (
     <>
       <h2>スキル</h2>
-      <h3>Coming soon...</h3>
+      <h3>Programming Language</h3>
+      <div className="skillist">
+        <li> Python(CTF)</li>
+        <li> Rust(競プロ(練習中))</li>
+        <li> C, Java, C++(大学の授業)</li>
+        <li> Lua(wezterm, neovimのconfig)</li>
+      </div>
+      <h3>etc</h3>
+      <div className="skillist">
+        <li> Neovim</li>
+        <li> ArchLinux</li>
+        <li> Burpsuite</li>
+        <li> Wireshark</li>
+      </div>
     </>
   );
 };
@@ -93,7 +107,6 @@ const Mylink = () => {
             alt="github-icon"
           />
         </a>
-        <a href="https://speakerdeck.com/totpro" target="_blank"></a>
       </div>
     </>
   );
