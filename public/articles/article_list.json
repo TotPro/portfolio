@@ -1,6 +1,14 @@
 {
   "articles": [
     {
+      "dirName": "post_7th",
+      "title": "AlpacaHack Round7 Treasure Hunt",
+      "date": "2024-11-30",
+      "tags": [
+        "ctf"
+      ]
+    },
+    {
       "dirName": "post_6th",
       "title": "IERAE CTF 2024 に参加しました",
       "date": "2024-09-23",
