@@ -30,7 +30,7 @@ const Basic = () => {
       <p>
         HN : 総資産(JA) / TotPro(EN)
         <br />
-        大学 : 会津大学 学部4年
+        大学 : 会津大学 修士1年
         <br />
         所属サークル : Zli
       </p>
